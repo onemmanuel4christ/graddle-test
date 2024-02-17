@@ -19,7 +19,7 @@ export default function Expenses() {
           desc="Total Money spent for this week"
           amount="₦502K"
         />
-        <Chart aspect={2 / 1} title="Total Savings for last 6 months" />
+        <Chart aspect={2 / 1} title="Total Expenses for last 6 months" />
       </div>
       <DataTable title="Expenses" />
     </DashboardLayout>
