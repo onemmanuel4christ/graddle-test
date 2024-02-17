@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: #fafafa;
+  z-index: 999;
+  
+    .logo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 50%;
+    gap: 7px;
+
+    span {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      &:nth-child(1) {
+        background: #fe4a3f;
+      }
+      &:nth-child(2) {
+        background: #ffb51f;
+      }
+      &:nth-child(3) {
+        background: #4fea32;
+      }
+    }
+  }
+}
+

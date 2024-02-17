@@ -1,0 +1,22 @@
+.overview {
+  @apply p-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-[2rem] justify-center;
+}
+
+.card {
+  @apply bg-[#FFFFFF] p-4 md:p-[40px] flex gap-5 rounded-[12px] items-center
+
+}
+.icon {
+width: 48px;
+height: 48px;
+border-radius: 50%;
+}
+.title{
+    font-size: 18px;
+    font-weight: 500;
+    color: #313948;
+}
+
+.total{
+    @apply text-[32px] font-[700]
+}

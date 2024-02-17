@@ -1,0 +1,27 @@
+.dashboard {
+  background: #f5f0e9;
+  // height: 100vh;
+  // overflow: hidden;
+
+  .layout {
+    display: flex;
+    width: 100%;
+    @apply lg:relative;
+  }
+  .layout__main {
+  }
+}
+
+// .layout{
+//     position: relative;
+
+//     &__main{
+//         padding: 1rem 2rem;
+//         min-height: 100vh;
+//         padding-bottom: 5rem;
+//     }
+// }
+
+// .layout{
+//   display: flex;
+// }
